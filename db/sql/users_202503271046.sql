@@ -1,0 +1,8 @@
+INSERT INTO back_system.users (account,password,`identity`,department,name,sex,email,image_url,create_time,update_time,status,read_list,read_status) VALUES
+	 ('123123','$2a$10$s86V.q4PcHFNV.Is0j0yKOUN1MYFenG60nldLrP8fqm57SfajVOJG','产品管理员','组织部','彭于晏','男','123123@qq.com','http://127.0.0.1:3000/upload/qi.jpg','2024-08-08 16:16:24.798','2024-10-14 11:19:38.328','0',NULL,0),
+	 ('admin','$2a$10$enyYjJTgVFFp8h/J5fkFxuuHhgbgLGCCigfIO.Dz.7bAr8CLOEmvG','用户管理员','总裁办','刘亦菲','女','admin@qq.com','http://127.0.0.1:3000/upload/老胡.jpg','2024-08-08 17:24:51.192','2025-03-24 14:40:24.675','1',NULL,0),
+	 ('123456','$2a$10$A7J42Tk2al8lXO92EJes5erWpz/jvqlY.7qpFdzDN5zXfjjXQbCx2','超级管理员','研发中心','左不凡','男','123456@qq.com','http://127.0.0.1:3000/upload/老胡.jpg','2024-08-08 17:26:19.917','2024-10-11 11:11:30.768','0','[17,25]',1),
+	 ('654321','$2a$10$O9ktnQOxKEH0vDXp4C0oIe0suVQUtr8BgTeSrGfKOP4FgQkcz0RAG','用户管理员','组织部','张三','男','123456@qq.com','http://127.0.0.1:3000/upload/老胡.jpg','2024-09-10 11:17:24.149','2025-03-17 16:18:20.035','0','[]',1),
+	 ('666666','$2a$10$T16W7mpxR.SiDpqVUZG2HeDLWJXIo.teXLiaei.PS0hgdilvdWDJ.','消息管理员','总裁办','测试','女','666666@qq.com','http://127.0.0.1:3000/upload/老胡.jpg','2024-10-09 17:18:33.559','2024-10-14 11:19:53.940','0',NULL,0),
+	 ('222222','$2a$10$jMroXRWdV6GMnYUNozKgAe8BF8.1fzInq0JI4LfIDY0u3N.jXbLMK','产品管理员','总裁办','萧炎','男','222222@qq.com',NULL,'2024-10-12 16:09:25.572','2025-02-20 08:47:31.094','0',NULL,0),
+	 ('555555','$2a$10$NtpZDoaPcWxjwNY9pEQb2OyZL9sl2qEEikeSLnSXIFYF.B7aK.uoW','产品管理员','总裁办','王麻子','男','123456@qq.com','http://127.0.0.1:3000/upload/wl (2).jpg','2025-02-19 16:07:16.581',NULL,'0',NULL,0);

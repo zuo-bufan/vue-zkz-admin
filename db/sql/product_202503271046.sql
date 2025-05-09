@@ -1,0 +1,5 @@
+INSERT INTO back_system.product (product_id,product_name,product_category,product_unit,product_inwarehouse_number,product_single_price,product_all_price,product_status,product_create_person,product_create_time,product_update_time,in_memo,product_out_id,product_out_number,product_out_price,product_out_apply_person,product_apply_time,product_out_status,product_out_date,product_out_audit_person,apply_memo,audit_memo,product_audit_time) VALUES
+	 (1004,'香蕉','食品类','箱',250,40,10000,NULL,'张三','2025-02-24 16:41:29.855','2025-03-11 17:23:54.241','新批发的水果',1004,1,40,'胡歌','2025-03-24 17:14:04.456','申请出库','2025-03-11 15:29:21.093',NULL,'想吃了',NULL,NULL),
+	 (1002,'冲锋衣','服装类','套',350,120,42000,NULL,'张三','2025-02-25 15:06:42.788','2025-03-12 08:59:59.075','测试创建入库',NULL,NULL,NULL,NULL,NULL,NULL,'2025-02-26 11:37:56.134',NULL,NULL,NULL,NULL),
+	 (1003,'小米汽车su7Utra','日用品类','辆',100,999,99900,NULL,'王麻子','2025-03-11 15:40:33.648','2025-03-14 14:35:26.277','新品汽车',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	 (1001,'红星尔克运动鞋','鞋帽类','箱',150,199,29850,NULL,'石昊','2025-03-12 08:58:51.963','2025-03-14 14:35:17.417','测试',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
